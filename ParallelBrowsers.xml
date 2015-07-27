@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test" parallel = "tests" thread-count="4">
+    <test name="TestFirefox">
+        <classes>
+            <class name = "parallel.test.FireFoxTest"></class>
+        </classes>
+    </test>
+    <test name="TestChrome">
+        <classes>
+            <class name = "parallel.test.ChromeTest"></class>
+        </classes>
+    </test>
+    <test name="TestInternetExplorer">
+        <classes>
+            <class name = "parallel.test.InternetExplorerTest"></class>
+        </classes>
+    </test>
+    <test name="TestMac">
+        <classes>
+            <class name = "parallel.test.MacTest"></class>
+        </classes>
+    </test>
+    <test name="TestAndroid">
+        <classes>
+            <class name = "appium.android.test.MenuPageTest"></class>
+        </classes>
+    </test>
+</suite>

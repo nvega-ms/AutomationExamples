@@ -1,0 +1,15 @@
+<suite name="MainSuite" parallel = "tests" thread-count="2">
+    
+	    <test name="FireFoxTest">
+	        <classes>
+	            <class name = "parallel.manyinstances.test.HomePageTest"></class>
+	     	</classes>
+	    </test>
+ 
+	     <test name="AboutUsTest">
+	        <classes>
+	            <class name = "parallel.manyinstances.test.AboutUsTest"></class>
+	        </classes>
+	    </test>
+
+</suite>

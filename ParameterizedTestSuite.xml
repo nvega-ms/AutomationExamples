@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test" parallel = "tests" thread-count="4">
+    <test name="TestFirefox">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name = "parallel.test.BaseTest"></class>
+        </classes>
+    </test>
+    <test name="TestChrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name = "parallel.test.BaseTest"></class>
+        </classes>
+    </test>
+    <test name="TestInternetExplorer">
+        <parameter name="browser" value="iexplorer" />
+        <classes>
+            <class name = "parallel.test.BaseTest"></class>
+        </classes>
+    </test>
+</suite>
