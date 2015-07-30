@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="MobileSuite" parallel="tests">
+  <test name="FirstTest">
+  <parameter name="browser" value="iPhone"/>
+  <parameter name="device" value="iPhone 5"/>
+  <parameter name="platform" value="Platform.MAC"/>
+    <classes>
+      <class name="trainning.browserstack.test.MobileExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
