@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" name="MobileSuite" parallel="tests">
-  <test name="FirstTest">
-  <parameter name="browser" value="iPhone"/>
-  <parameter name="device" value="iPhone 5"/>
-  <parameter name="platform" value="Platform.MAC"/>
-    <classes>
+  <test name="Android-5-Test">
+	  <parameter name="browser" value="android"/>
+	  <parameter name="device" value="Google Nexus 5"/>
+      <classes>
       <class name="trainning.browserstack.test.MobileExample"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
+   <test name="Android-4-4-Test">
+	  <parameter name="browser" value="android"/>
+	  <parameter name="device" value="Samsung Galaxy S5"/>
+      <classes>
+      <class name="trainning.browserstack.test.MobileExample"/>
+    </classes>
+  </test>
+  <test name="Android-4-3-Test">
+	  <parameter name="browser" value="android"/>
+	  <parameter name="device" value="Samsung Galaxy S4"/>
+      <classes>
+      <class name="trainning.browserstack.test.MobileExample"/>
+    </classes>
+  </test>
+  <test name="Android-4-2-Test">
+	  <parameter name="browser" value="android"/>
+	  <parameter name="device" value="Google Nexus 4"/>
+      <classes>
+      <class name="trainning.browserstack.test.MobileExample"/>
+    </classes>
+  </test> 
 </suite> <!-- Suite -->
